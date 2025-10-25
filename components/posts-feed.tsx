@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/card";
 import { POSTS_PAGE_SIZE } from "@/lib/constants";
 import type { GhostPagination, GhostPostSummary } from "@/lib/ghost";
-import menuAssistantLight from "@/public/menu-assistant-light.jpg";
+import menuAssistantLight from "@/public/og-image.png";
 import { Calendar } from "lucide-react";
 
 type PostsResponse = {
