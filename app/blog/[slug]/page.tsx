@@ -144,7 +144,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 					<p className="text-lg text-muted-foreground">{post.excerpt}</p>
 				) : null}
 				<article
-					className="space-y-6 text-base leading-relaxed text-foreground [&_a]:text-primary [&_a]:underline-offset-4 [&_a:hover]:underline [&_h2]:mt-10 [&_h2]:text-3xl [&_h3]:mt-8 [&_h3]:text-2xl prose prose-xl"
+					className="space-y-6 text-base leading-relaxed text-foreground [&_a]:text-primary [&_a]:underline-offset-4 [&_a:hover]:underline [&_h2]:mt-10 [&_h2]:text-3xl [&_h3]:mt-8 [&_h3]:text-2xl prose-base prose text-gray-700 prose-h3:text-black prose-a:font-semibold prose-a:text-accent-300 hover:prose-a:text-black"
 					dangerouslySetInnerHTML={{ __html: post.html ?? "" }}
 				/>
 			</div>
